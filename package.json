@@ -1,0 +1,16 @@
+{
+  "name": "test-monorepo",
+  "version": "1",
+  "description": "test",
+  "main": "index.js",
+  "repository": "-",
+  "author": "peter",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
